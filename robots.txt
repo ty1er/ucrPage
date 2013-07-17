@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://www.cs.ucr.edu/~iabsa001/sitemap.xml 
