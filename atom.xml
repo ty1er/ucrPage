@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Ildar Absalyamov]]></title>
+  <link href="http://ty1er.github.io/blog/atom.xml" rel="self"/>
+  <link href="http://ty1er.github.io/blog/"/>
+  <updated>2013-07-17T16:17:07-07:00</updated>
+  <id>http://ty1er.github.io/blog/</id>
+  <author>
+    <name><![CDATA[Ildar Absalyamov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Submitted paper to AMDS'13]]></title>
+    <link href="http://ty1er.github.io/blog/blog/2013/06/28/submitted-paper-to-amds-13/"/>
+    <updated>2013-06-28T00:00:00-07:00</updated>
+    <id>http://ty1er.github.io/blog/blog/2013/06/28/submitted-paper-to-amds-13</id>
+    <content type="html"><![CDATA[<p>Paper &ldquo;High-Performance Holistic XML Twig Filtering Using GPUs&rdquo; submitted to Fourth International Workshop on Accelerating Data Management Systems Using Modern Processor and Storage Architectures (ADMS&#8217;13).</p>
+]]></content>
+  </entry>
+  
+</feed>

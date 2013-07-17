@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://ty1er.github.io/blog/sitemap.xml 
