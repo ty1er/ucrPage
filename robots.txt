@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://www.cs.ucr.edu/~iabsa001/sitemap.xml 
+Sitemap: http://ty1er.github.io/blog/sitemap.xml 
