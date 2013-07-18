@@ -1,0 +1,21 @@
+<section class="social-links">
+  <h3><i class="icon-link"></i> Social Media Connections</h3>
+
+  <ul id="socialcontainer">
+    {% if site.github_user %}
+      <li><a href="http://github.com/{{site.github_user}}"><img id="icon_image" src="/images/github.png" alt="GitHub - Ildar Absalyamov" title="GitHub - Ildar Absalyamov" width="48px" height="48px"></a></li>
+    {% endif %}
+    {% if site.twitter_user %}
+      <li><a href="http://twitter.com/{{site.twitter_user}}"><img id="icon_image" src="/images/twitter.png" alt="Twitter - Ildar Absalyamov" title="Twitter - Ildar Absalyamov" width="48px" height="48px"></a></li>
+    {% endif %}
+    {% if site.linkedin_user %}
+      <li><a href="http://www.linkedin.com/pub/{{site.linkedin_user}}"><img id="icon_image" src="/images/linkedin.png" alt="Linkedin - Ildar Absalyamov" title="Linkedin - Ildar Absalyamov" width="48px" height="48px"></a></li>
+    {% endif %}
+    {% if site.facebook_user %}
+      <li><a href="http://www.facebook.com/{{site.facebook_user}}"><img id="icon_image" src="/images/facebook.jpeg" alt="Facebook - Ildar Absalyamov" title="Linkedin - Ildar Absalyamov" width="48px" height="48px"></a></li>
+    {% endif %}
+    {% if site.googleplus_user %}
+      <li><a href="http://plus.google.com/{{site.googleplus_user}}"><img id="icon_image" src="/images/gplus.jpeg" alt="Google+ - Ildar Absalyamov" title="Google+ - Ildar Absalyamov" width="48px" height="48px"></a></li>
+    {% endif %}
+  </ul>
+</section>
