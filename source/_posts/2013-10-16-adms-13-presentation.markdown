@@ -3,7 +3,7 @@ layout: post
 title: "ADMS'13 presentation"
 date: 2013-08-26 11:20
 comments: true
-categories: ADMS,presentation
+categories: ADMS presentation
 ---
 
 Paper ["High-Performance Holistic XML Twig Filtering Using GPUs"](/publications/iabsalyamov_adms2013.pdf) was presented on ADMS'13 workshop (thanks to Prof. Alex Delis).
