@@ -10,7 +10,7 @@ footer: true
 I am a second year PhD student in the [Department of Computer Science & Engineering](http://www.cs.ucr.edu/) at the [University of California, Riverside](http://www.ucr.edu/).
 I work in [Database lab](http://dblab.cs.ucr.edu/) with my advisor [Vassilis J. Tsotras](http://www.cs.ucr.edu/~tsotras/). My research interests are in the area of databases and distributed systems.
 
-Prior to comming to UCR I recieved CS degree from [Ufa State Aviation Technical University](http://ugatu.ac.ru/) in June 2011.
+Prior to coming to UCR I received CS degree from [Ufa State Aviation Technical University](http://ugatu.ac.ru/) in June 2011.
 
 Contacts
 ---------
