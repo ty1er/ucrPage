@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Welcome - Ildar Absalyamov</title>
+  <title>CS236 Win14: Project Description - Ildar Absalyamov</title>
   <meta name="author" content="Ildar Absalyamov">
 
   
-  <meta name="description" content="Welcome I am a second year PhD student in the Department of Computer Science &amp; Engineering at the University of California, Riverside.
-I work in &hellip;">
+  <meta name="description" content="CS236 Win14: Project Description The goal of this project is to use the MapReduce framework to implement well known database algorithm.
+Hadoop is a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ I work in &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.cs.ucr.edu/~iabsa001">
+  <link rel="canonical" href="http://www.cs.ucr.edu/~iabsa001/teaching/cs236W14.html">
   <link href="/~iabsa001/favicon.png" rel="icon">
   <link href="/~iabsa001/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Ildar Absalyamov" type="application/atom+xml">
@@ -81,27 +81,126 @@ I work in &hellip;">
 <article role="article">
   
   <header>
-    <h1 class="entry-title">Welcome</h1>
+    <h1 class="entry-title">CS236 Win14: Project Description</h1>
     
   </header>
   
-  <p><img id="profile_photo" src="images/photo.jpg" alt="Ildar Profile Photo" title="Ildar Absalyamov" style="float:right;margin:0 0 0 20px" height="218" width="178">
-I am a second year PhD student in the <a href="http://www.cs.ucr.edu/">Department of Computer Science &amp; Engineering</a> at the <a href="http://www.ucr.edu/">University of California, Riverside</a>.
-I work in <a href="http://dblab.cs.ucr.edu/">Database lab</a> with my advisor <a href="http://www.cs.ucr.edu/~tsotras/">Vassilis J. Tsotras</a>. My research interests are in the area of databases and distributed systems.</p>
+  <p>The goal of this project is to use the <strong>MapReduce</strong> framework to implement well known database algorithm.
+Hadoop is a popular open-source implementation of the MapReduce framework, used to parallelize the algorithm execution onto several machines.</p>
 
-<p>Prior to coming to UCR I received CS degree from <a href="http://ugatu.ac.ru/">Ufa State Aviation Technical University</a> in June 2011.</p>
+<h1>What you have to implement in this project</h1>
 
-<h2><a id="contacts"> Contacts</h2>
+<p>You are required to implement <a href="#references"><strong>Skyline computation</strong></a> algorithm using the MapReduce paradigm.
+In our implementation you should come up with a solution that leverages <strong>data parallelism</strong> provided by MapReduce execution platform. I.e. assume that data is horizontally partitioned each mapper instance will process one partition. For example, if the input data set looks like:</p>
 
-<hr />
+<table>
+<thead>
+<tr>
+<th>ID  </th>
+<th>   attr1   </th>
+<th>   attr2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0   </td>
+<td>   3       </td>
+<td>   2</td>
+</tr>
+<tr>
+<td>1   </td>
+<td>   6       </td>
+<td>   4</td>
+</tr>
+<tr>
+<td>2   </td>
+<td>   1       </td>
+<td>   1</td>
+</tr>
+<tr>
+<td>3   </td>
+<td>   8       </td>
+<td>   8</td>
+</tr>
+</tbody>
+</table>
 
-<p>iabsa001[АT]cs[DOT]ucr[DОT]edu</p>
 
-<p>363 Winston Chung Hall<br/>
-Department of Computer Science &amp; Engineering<br/>
-Bourns College of Engineering<br/>
-University of California, Riverside<br/>
-Riverside, CA 92521</p>
+<p>then horizontally partition means that if we have two mappers, some records, saying id=0 and 2, will be processed in one mapper, and the others will be in the other mapper.</p>
+
+<h1>Dataset description</h1>
+
+<p><a href="/~iabsa001/files/gsod_aggregated.tar.gz">Dataset</a> consists of records, having 22 numeric attributes. Objects in the skyline should minimize/maximize attributes according to the following table:</p>
+
+<table>
+<thead>
+<tr>
+<th><a></a></th>
+<th>    MAX     </th>
+<th>   MIN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>    </td>
+<td>   4       </td>
+<td>   10</td>
+</tr>
+<tr>
+<td>    </td>
+<td>   6       </td>
+<td>   14</td>
+</tr>
+<tr>
+<td>attr#</td>
+<td>  8       </td>
+<td>   16</td>
+</tr>
+<tr>
+<td>    </td>
+<td>   12      </td>
+<td>   17</td>
+</tr>
+<tr>
+<td>    </td>
+<td>           </td>
+<td>   19</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Don&rsquo;t assume that there is any index build on the data.</p>
+
+<h1>Hadoop environment</h1>
+
+<p>For developing purposes we recommend you to use <a href="https://ccp.cloudera.com/display/SUPPORT/Cloudera's+Hadoop+Demo+VM+for+CDH4">Cloudera Hadoop VM</a>.</p>
+
+<p>Each group we will be also provide an account on Hadoop cluster. However we recommend using cluster only for final scalability tests.</p>
+
+<h1>What you should submit</h1>
+
+<p>You must write a report with all your <strong>hight-level algorithms, results, findings, errors/problems/bugs, as well as a detail description of your source code</strong>.</p>
+
+<p>Please show the algorithms for both the mapper and the reducer components, and your Hadoop configuration including number of mappers and reducers. For the experiments, please show the total running time and also the mapping and reducing time separately. You should try at least the following configurations: mappers as 1, 2, and 4, and reducers as 1, 2, and 4 (so there would be at least 9 configurations). Similarly, you need to run at least 3 runs for the average running time.</p>
+
+<p>You also have to report the answer (set of objectIDs, forming the skyline; objectID=concat(atribute1, &lsquo;_&rsquo;, attribute3)).</p>
+
+<p>Along with your report (in <strong>PDF format</strong>), you should submit your <strong>source code</strong> along with a README file and run scripts that explain how to run your code and reproduce your experiments.</p>
+
+<p>The project is to be done <strong>in groups of two</strong> students. In the document, explicitly enumerate the tasks that each member of your group was responsible for.</p>
+
+<h1>Deadline for the project</h1>
+
+<p>The deadline for this project is <strong>Friday, March 21, 11:59pm</strong>. Please submit tar.gz archive named &ldquo;cs236w14_username1_username2&rdquo; (username=your NetID) to <a href="/~iabsa001/#contacts">me</a>  with the subject <strong>&ldquo;[cs236]project submission&rdquo;</strong>.</p>
+
+<h1><a id="references"> References</h1>
+
+<ul>
+<li><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=914855">Borzsony, S., Donald Kossmann, and Konrad Stocker. &ldquo;The skyline operator.&rdquo;, ICDE 2001.</a></li>
+<li><a href="http://dl.acm.org/citation.cfm?id=2556580">Park, Y., Min, J. K., &amp; Shim, K. &ldquo;Parallel computation of skyline and reverse skyline queries using mapreduce&rdquo;, VLDB 2013</a></li>
+</ul>
+
 
   
     <footer>
