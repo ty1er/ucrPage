@@ -88,119 +88,114 @@ Hadoop is a &hellip;">
   <p>The goal of this project is to use the <strong>MapReduce</strong> framework to implement well known database algorithm.
 Hadoop is a popular open-source implementation of the MapReduce framework, used to parallelize the algorithm execution onto several machines.</p>
 
-<h1>What you have to implement in this project</h1>
-
+<h1 id="what-you-have-to-implement-in-this-project">What you have to implement in this project</h1>
 <p>You are required to implement <a href="#references"><strong>Skyline computation</strong></a> algorithm using the MapReduce paradigm.
 In our implementation you should come up with a solution that leverages <strong>data parallelism</strong> provided by MapReduce execution platform. I.e. assume that data is horizontally partitioned each mapper instance will process one partition. For example, if the input data set looks like:</p>
 
 <table>
-<thead>
-<tr>
-<th>ID  </th>
-<th>   attr1   </th>
-<th>   attr2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0   </td>
-<td>   3       </td>
-<td>   2</td>
-</tr>
-<tr>
-<td>1   </td>
-<td>   6       </td>
-<td>   4</td>
-</tr>
-<tr>
-<td>2   </td>
-<td>   1       </td>
-<td>   1</td>
-</tr>
-<tr>
-<td>3   </td>
-<td>   8       </td>
-<td>   8</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>attr1</th>
+      <th>attr2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>8</td>
+      <td>8</td>
+    </tr>
+  </tbody>
 </table>
-
 
 <p>then horizontally partition means that if we have two mappers, some records, saying id=0 and 2, will be processed in one mapper, and the others will be in the other mapper.</p>
 
-<h1>Dataset description</h1>
+<h1 id="dataset-description">Dataset description</h1>
 
-<p><a href="/~iabsa001/files/gsod_aggregated.tar.gz">Dataset</a> consists of records, having 22 numeric attributes. Objects in the skyline should minimize/maximize attributes according to the following table:</p>
+<p><a href="/~iabsa001/files/gsod_aggregated.tar.gz">Dataset</a> consists of records, having 22 numeric attributes. Objects in the skyline should minimize/maximize attributes according to the following table:  </p>
 
 <table>
-<thead>
-<tr>
-<th><a></a></th>
-<th>    MAX     </th>
-<th>   MIN</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>    </td>
-<td>   4       </td>
-<td>   10</td>
-</tr>
-<tr>
-<td>    </td>
-<td>   6       </td>
-<td>   14</td>
-</tr>
-<tr>
-<td>attr#</td>
-<td>  8       </td>
-<td>   16</td>
-</tr>
-<tr>
-<td>    </td>
-<td>   12      </td>
-<td>   17</td>
-</tr>
-<tr>
-<td>    </td>
-<td>           </td>
-<td>   19</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>MAX</th>
+      <th>MIN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>4</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>6</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>attr#</td>
+      <td>8</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>12</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>19</td>
+    </tr>
+  </tbody>
 </table>
 
+<p>Don’t assume that there is any index build on the data.</p>
 
-<p>Don&rsquo;t assume that there is any index build on the data.</p>
-
-<h1>Hadoop environment</h1>
+<h1 id="hadoop-environment">Hadoop environment</h1>
 
 <p>For developing purposes we recommend you to use <a href="https://ccp.cloudera.com/display/SUPPORT/Cloudera's+Hadoop+Demo+VM+for+CDH4">Cloudera Hadoop VM</a>.</p>
 
 <p>Each group we will be also provide an account on Hadoop cluster. However we recommend using cluster only for final scalability tests.</p>
 
-<h1>What you should submit</h1>
+<h1 id="what-you-should-submit">What you should submit</h1>
 
 <p>You must write a report with all your <strong>hight-level algorithms, results, findings, errors/problems/bugs, as well as a detail description of your source code</strong>.</p>
 
 <p>Please show the algorithms for both the mapper and the reducer components, and your Hadoop configuration including number of mappers and reducers. For the experiments, please show the total running time and also the mapping and reducing time separately. You should try at least the following configurations: mappers as 1, 2, and 4, and reducers as 1, 2, and 4 (so there would be at least 9 configurations). Similarly, you need to run at least 3 runs for the average running time.</p>
 
-<p>You also have to report the answer (set of objectIDs, forming the skyline; objectID=concat(atribute1, &lsquo;_&rsquo;, attribute3)).</p>
+<p>You also have to report the answer (set of objectIDs, forming the skyline; objectID=concat(atribute1, ‘_’, attribute3)).</p>
 
 <p>Along with your report (in <strong>PDF format</strong>), you should submit your <strong>source code</strong> along with a README file and run scripts that explain how to run your code and reproduce your experiments.</p>
 
 <p>The project is to be done <strong>in groups of two</strong> students. In the document, explicitly enumerate the tasks that each member of your group was responsible for.</p>
 
-<h1>Deadline for the project</h1>
+<h1 id="deadline-for-the-project">Deadline for the project</h1>
 
-<p>The deadline for this project is <strong>Friday, March 21, 11:59pm</strong>. Please submit tar.gz archive named &ldquo;cs236w14_username1_username2&rdquo; (username=your NetID) to <a href="/~iabsa001/#contacts">me</a>  with the subject <strong>&ldquo;[cs236]project submission&rdquo;</strong>.</p>
+<p>The deadline for this project is <strong>Friday, March 21, 11:59pm</strong>. Please submit tar.gz archive named “cs236w14_username1_username2” (username=your NetID) to <a href="/~iabsa001/#contacts">me</a>  with the subject <strong>“[cs236]project submission”</strong>.</p>
 
-<h1><a id="references"> References </a></h1>
-
+<h1 id="a-idreferences-references-a"><a id="references"> References </a></h1>
 <ul>
-<li><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=914855">Borzsony, S., Donald Kossmann, and Konrad Stocker. &ldquo;The skyline operator.&rdquo;, ICDE 2001.</a></li>
-<li><a href="http://dl.acm.org/citation.cfm?id=2556580">Park, Y., Min, J. K., &amp; Shim, K. &ldquo;Parallel computation of skyline and reverse skyline queries using mapreduce&rdquo;, VLDB 2013</a></li>
+  <li><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=914855">Borzsony, S., Donald Kossmann, and Konrad Stocker. “The skyline operator.”, ICDE 2001.</a></li>
+  <li><a href="http://dl.acm.org/citation.cfm?id=2556580">Park, Y., Min, J. K., &amp; Shim, K. “Parallel computation of skyline and reverse skyline queries using mapreduce”, VLDB 2013</a></li>
 </ul>
-
 
   
     <footer>
