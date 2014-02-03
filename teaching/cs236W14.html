@@ -92,7 +92,7 @@ Hadoop is a popular open-source implementation of the MapReduce framework, used 
 <p>You are required to implement <a href="#references"><strong>Skyline computation</strong></a> algorithm using the MapReduce paradigm.
 In our implementation you should come up with a solution that leverages <strong>data parallelism</strong> provided by MapReduce execution platform. I.e. assume that data is horizontally partitioned each mapper instance will process one partition. For example, if the input data set looks like:</p>
 
-<table>
+<table border="1">
   <thead>
     <tr>
       <th>ID</th>
@@ -130,38 +130,35 @@ In our implementation you should come up with a solution that leverages <strong>
 
 <p><a href="/~iabsa001/files/gsod_aggregated.tar.gz">Dataset</a> consists of records, having 22 numeric attributes. Objects in the skyline should minimize/maximize attributes according to the following table:  </p>
 
-<table>
-  <thead>
+<table border="1">
+ <thead>
     <tr>
-      <th> </th>
+      <th>&nbsp;</th>
       <th>MAX</th>
       <th>MIN</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td> </td>
+      <td rowspan="5">attr#</td>
       <td>4</td>
       <td>10</td>
     </tr>
     <tr>
-      <td> </td>
+      
       <td>6</td>
       <td>14</td>
     </tr>
     <tr>
-      <td>attr#</td>
       <td>8</td>
       <td>16</td>
     </tr>
     <tr>
-      <td> </td>
       <td>12</td>
       <td>17</td>
     </tr>
     <tr>
-      <td> </td>
-      <td> </td>
+      <td>&nbsp;</td>
       <td>19</td>
     </tr>
   </tbody>
