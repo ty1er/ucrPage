@@ -8,9 +8,9 @@ footer: true
 The goal of this project is to use the **MapReduce** framework to implement a well known database algorithm.
 Hadoop is a popular open-source implementation of the MapReduce framework, used to parallelize the algorithm execution onto several machines.
 
-#What you have to implement in this project
+#What you need to implement in this project
 You are required to implement the [**Skyline computation**](#references) algorithm using the MapReduce paradigm.
-In our implementation you should come up with a solution that leverages **data parallelism** provided by the MapReduce execution platform. Assume that data is horizontally partitioned 
+In your implementation you should come up with a solution that leverages **data parallelism** provided by the MapReduce execution platform. Assume that data is horizontally partitioned 
 and each mapper instance will process one partition. For example, if the input data set looks like:
 
 <table border="1">
