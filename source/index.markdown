@@ -12,13 +12,15 @@ I work in [Database lab](http://dblab.cs.ucr.edu/) with my advisor [Vassilis J. 
 
 Prior to coming to UCR I received CS degree from [Ufa State Aviation Technical University](http://ugatu.ac.ru/) in June 2011.
 
-Contacts
+
+## Contacts ## {#contacts}
 ---------
 
-iabsa001[АT]ucr[DОT]edu
+iabsa001[АT]cs[DOT]ucr[DОT]edu
 
 363 Winston Chung Hall  
 Department of Computer Science & Engineering  
 Bourns College of Engineering  
 University of California, Riverside  
 Riverside, CA 92521  
+	

@@ -1,0 +1,117 @@
+---
+layout: page
+title: "CS236 Win14: Project Description"
+comments: false
+sharing: false
+footer: true
+---
+The goal of this project is to use the **MapReduce** framework to implement a well known database algorithm.
+Hadoop is a popular open-source implementation of the MapReduce framework, used to parallelize the algorithm execution onto several machines.
+
+#What you have to implement in this project
+You are required to implement the [**Skyline computation**](#references) algorithm using the MapReduce paradigm.
+In our implementation you should come up with a solution that leverages **data parallelism** provided by the MapReduce execution platform. Assume that data is horizontally partitioned 
+and each mapper instance will process one partition. For example, if the input data set looks like:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>attr1</th>
+      <th>attr2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>6</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>8</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
+then horizontally partitioning means that if we have two mappers, some records, saying id=0 and 2, will be processed in one mapper, and the others will be in the other mapper.
+
+#Dataset description
+
+[Dataset](/files/gsod_aggregated.tar.gz) consists of records, having 22 numeric attributes. When computing a skyline attribute values should be minimized/maximized. For this project,
+you should minimize/maximize the attributes according to the following table (note that attributes not mentioned in the table are irrelevant to the skyline computation):  
+
+<table border="1">
+ <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th>MAX</th>
+      <th>MIN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">attr#</td>
+      <td>4</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      
+      <td>6</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td rowspan="2">12</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>19</td>
+    </tr>
+  </tbody>
+</table>
+
+Do not assume that there is any index built on the data. You should not try to implement the index-based approaches discussed in class. Instead, think of simple, yet parallelizable
+approaches to implement a skyline. Some ideas appear in the original skyline paper below.
+
+#Hadoop environment
+
+For developing purposes we recommend that you use [Cloudera Hadoop VM](https://ccp.cloudera.com/display/SUPPORT/Cloudera's+Hadoop+Demo+VM+for+CDH4).
+
+Each group will be provided with an account on a Hadoop cluster. However we recommend using the cluster only for your final scalability tests.
+
+#What you should submit
+
+You must write a report with all your **hight-level algorithms, results, findings, errors/problems/bugs, as well as a detailed description of your source code**.
+
+Please show the pseudocode for both the mapper and the reducer components, and your Hadoop configuration including number of mappers and reducers. For the experiments, please 
+show the total running time and also the mapping and reducing time separately. You should try at least the following configurations: number of mappers: 1, 2, and 4, and 
+number of reducers: 1, 2, and 4 (so there would be at least 9 configurations). Similarly, you need to run at least 3 runs for the average running time.
+
+You also have to report the answer (set of objectIDs, forming the skyline; objectID=concat(atribute1, '_', attribute3)).
+
+Along with your report (in **PDF format**), you should submit your **source code** along with a README file and run scripts that explain how to run your code and reproduce your experiments.
+
+The project is to be done **in groups of two** students. In the document, explicitly enumerate the tasks that each member of your group was responsible for.
+
+#Deadline for the project
+
+The deadline for this project is **Friday, March 21, 11:59pm**. Please submit tar.gz archive named "cs236w14_username1_username2" (username=your NetID) to [me](/#contacts)  with the subject **"[cs236]project submission"**.
+
+# References # {#references}
+- [Borzsony, S., Donald Kossmann, and Konrad Stocker. "The skyline operator.", ICDE 2001.](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=914855)
+- [Park, Y., Min, J. K., & Shim, K. "Parallel computation of skyline and reverse skyline queries using mapreduce", VLDB 2013](http://dl.acm.org/citation.cfm?id=2556580)
