@@ -49,7 +49,7 @@ then horizontally partitioning means that if we have two mappers, some records, 
 
 #Dataset description
 
-[Dataset](/files/gsod_aggregated.tar.gz) consists of records, having 22 numeric attributes. You can find more information about dataset description [here](/files/gsod_readme.txt). When computing a skyline attribute values should be minimized/maximized. For this project,
+[Dataset](/files/gsod_aggregated.tar.gz) consists of records, having 22 numeric attributes. You can find more information about dataset file format [here](/files/gsod_readme.txt). When computing a skyline attribute values should be minimized/maximized. For this project,
 you should minimize/maximize the attributes according to the following table (note that attributes not mentioned in the table are irrelevant to the skyline computation):  
 
 <table border="1">
