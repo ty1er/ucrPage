@@ -99,10 +99,11 @@ Each group will be provided with an account on a Hadoop cluster. However we reco
 You must write a report with all your **hight-level algorithms, results, findings, errors/problems/bugs, as well as a detailed description of your source code**.
 
 Please show the pseudocode for both the mapper and the reducer components, and your Hadoop configuration including number of mappers and reducers. For the experiments, please 
-show the total running time and also the mapping and reducing time separately. You should try at least the following configurations: number of mappers: 1, 2, and 4, and 
-number of reducers: 1, 2, and 4 (so there would be at least 9 configurations). Similarly, you need to run at least 3 runs for the average running time.
+show the total running time and also the mapping and reducing time separately. 
+You should try to use at least 1, 2 and 4 reducers to show scalability of your approach.
+Similarly, you need to run at least 3 runs for the average running time.
 
-You also have to report the answer (set of objectIDs, forming the skyline; objectID=concat(atribute1, '_', attribute3)).
+You also have to report the answer (set of objectIDs, forming the skyline; objectID=concat(STN, ' _', YEAR, ' _', MODA)).
 
 Along with your report (in **PDF format**), you should submit your **source code** along with a README file and run scripts that explain how to run your code and reproduce your experiments.
 
