@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /~iabsa001
+RewriteRule ^research/fpga_hash_joins/extended_results.pdf$ redirect.html
