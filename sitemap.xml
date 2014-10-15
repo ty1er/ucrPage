@@ -2,48 +2,52 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/blog/2013/07/19/paper-accepted-to-adms-13/</loc>
-        <lastmod>2014-08-23T03:05:30+06:00</lastmod>
+        <lastmod>2014-08-22T14:05:30-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/blog/2013/08/26/adms-13-presentation/</loc>
-        <lastmod>2013-10-17T00:53:08+06:00</lastmod>
+        <lastmod>2013-10-16T11:53:08-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/blog/2014/03/12/ph-dot-d-advancement-exam/</loc>
-        <lastmod>2014-03-17T02:42:01+06:00</lastmod>
+        <lastmod>2014-03-16T13:42:01-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://www.cs.ucr.edu/~iabsa001/blog/2014/08/11/paper-accepted-to-geoinformatica-14/
         </loc>
-        <lastmod>2014-08-22T11:28:30+06:00</lastmod>
+        <lastmod>2014-10-14T17:36:37-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.cs.ucr.edu/~iabsa001/blog/2014/10/14/paper-accepted-to-cidr-15/</loc>
+        <lastmod>2014-10-14T17:39:52-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/coursework/</loc>
-        <lastmod>2013-07-18T00:41:31+06:00</lastmod>
+        <lastmod>2013-07-17T11:41:31-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/</loc>
-        <lastmod>2014-08-22T12:30:58+06:00</lastmod>
+        <lastmod>2014-08-21T23:30:58-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/publications/</loc>
-        <lastmod>2014-08-27T09:33:33+06:00</lastmod>
+        <lastmod>2014-08-26T20:33:33-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/research/</loc>
-        <lastmod>2014-08-22T12:25:45+06:00</lastmod>
+        <lastmod>2014-08-21T23:25:45-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/robots.txt</loc>
-        <lastmod>2013-07-17T13:19:21+06:00</lastmod>
+        <lastmod>2013-07-17T00:19:21-07:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/teaching/cs236W14.html</loc>
-        <lastmod>2014-03-06T12:52:24+06:00</lastmod>
+        <lastmod>2014-03-05T22:52:24-08:00</lastmod>
     </url>
     <url>
         <loc>http://www.cs.ucr.edu/~iabsa001/teaching/</loc>
-        <lastmod>2014-02-04T01:46:32+06:00</lastmod>
+        <lastmod>2014-02-03T11:46:32-08:00</lastmod>
     </url>
 </urlset>
