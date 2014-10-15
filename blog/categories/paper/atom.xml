@@ -4,7 +4,7 @@
   <title><![CDATA[Category: paper | Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/paper/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2014-10-14T17:40:29-07:00</updated>
+  <updated>2014-10-14T17:42:28-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Paper Accepted to CIDR'15]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2014/10/14/paper-accepted-to-cidr-15/"/>
+    <updated>2014-10-14T17:35:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2014/10/14/paper-accepted-to-cidr-15</id>
+    <content type="html"><![CDATA[<p>Paper <a href="/publications/cidr2014_tr.pdf">“FPGA-based Multithreading for In-Memory Hash Joins”</a> is accepted to 7th biannual Conference on Innovative Data Systems Research (CIDR’15).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Paper accepted to Geoinformatica'14]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2014/08/11/paper-accepted-to-geoinformatica-14/"/>
+    <updated>2014-08-11T22:22:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2014/08/11/paper-accepted-to-geoinformatica-14</id>
+    <content type="html"><![CDATA[<p>Paper <a href="/publications/geoinformatica2014.pdf">“High performance FPGA and GPU complex pattern matching over spatio-temporal streams”</a> will appear in Special Issue on Spatial and Temporal Database of Geoinformatica journal.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Paper accepted to AMDS'13]]></title>
