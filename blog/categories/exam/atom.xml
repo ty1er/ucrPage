@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: exam | Ildar Absalyamov]]></title>
+  <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/exam/atom.xml" rel="self"/>
+  <link href="http://www.cs.ucr.edu/~iabsa001/"/>
+  <updated>2014-10-14T17:43:54-07:00</updated>
+  <id>http://www.cs.ucr.edu/~iabsa001/</id>
+  <author>
+    <name><![CDATA[Ildar Absalyamov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ph.D advancement exam]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2014/03/12/ph-dot-d-advancement-exam/"/>
+    <updated>2014-03-12T13:35:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2014/03/12/ph-dot-d-advancement-exam</id>
+    <content type="html"><![CDATA[<p>I have successfully passed Ph.D qualifying exam! Thanks to my committee members <a href="http://www.cs.ucr.edu/~tsotras/">Dr. Tsotras</a>, <a href="http://www.cs.ucr.edu/~vagelis/">Dr. Hristidis</a>, <a href="http://www.cs.ucr.edu/~najjar/">Dr. Najjar</a>, <a href="http://www.cs.ucr.edu/~eamonn/">Dr. Keogh</a> and <a href="http://www.engr.ucr.edu/~marko/">Dr. Princevac</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
