@@ -4,7 +4,7 @@
   <title><![CDATA[Category: CIDR | Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/cidr/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2014-10-22T10:26:43-07:00</updated>
+  <updated>2014-11-23T19:40:38-08:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -18,7 +18,7 @@
     <link href="http://www.cs.ucr.edu/~iabsa001/blog/2014/10/14/paper-accepted-to-cidr-15/"/>
     <updated>2014-10-14T17:35:00-07:00</updated>
     <id>http://www.cs.ucr.edu/~iabsa001/blog/2014/10/14/paper-accepted-to-cidr-15</id>
-    <content type="html"><![CDATA[<p>Paper <a href="/publications/cidr2014_tr.pdf">“FPGA-based Multithreading for In-Memory Hash Joins”</a> is accepted to 7th biannual Conference on Innovative Data Systems Research (CIDR’15).</p>
+    <content type="html"><![CDATA[<p>Paper <a href="/publications/cidr2014.pdf">“FPGA-based Multithreading for In-Memory Hash Joins”</a> is accepted to 7th biannual Conference on Innovative Data Systems Research (CIDR’15).</p>
 ]]></content>
   </entry>
   
