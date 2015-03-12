@@ -4,7 +4,7 @@
   <title><![CDATA[Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2015-02-03T12:26:35-08:00</updated>
+  <updated>2015-03-11T21:39:36-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Internship 2015]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2015/03/11/summer-internship-2015/"/>
+    <updated>2015-03-11T21:20:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2015/03/11/summer-internship-2015</id>
+    <content type="html"><![CDATA[<p>I will spend summer 2015 as a research intern in Database Group at Microsoft Research working with <a href="http://research.microsoft.com/en-us/people/palarson/">Paul Larson</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Paper Accepted to CIDR'15]]></title>
