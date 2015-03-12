@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: MSR | Ildar Absalyamov]]></title>
+  <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/msr/atom.xml" rel="self"/>
+  <link href="http://www.cs.ucr.edu/~iabsa001/"/>
+  <updated>2015-03-11T21:41:42-07:00</updated>
+  <id>http://www.cs.ucr.edu/~iabsa001/</id>
+  <author>
+    <name><![CDATA[Ildar Absalyamov]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Summer Internship 2015]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2015/03/11/summer-internship-2015/"/>
+    <updated>2015-03-11T21:20:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2015/03/11/summer-internship-2015</id>
+    <content type="html"><![CDATA[<p>I will spend summer 2015 as a research intern in Database Group at Microsoft Research working with <a href="http://research.microsoft.com/en-us/people/palarson/">Paul Larson</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
