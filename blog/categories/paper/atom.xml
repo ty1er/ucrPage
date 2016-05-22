@@ -4,7 +4,7 @@
   <title><![CDATA[Category: paper | Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/paper/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2015-03-11T21:41:42-07:00</updated>
+  <updated>2016-05-22T11:58:11-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Paper Accepted to DaMoN'16]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2016/05/22/paper-accepted-to-damon-16/"/>
+    <updated>2016-05-22T11:28:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2016/05/22/paper-accepted-to-damon-16</id>
+    <content type="html"><![CDATA[<p>Paper <a href="/publications/damon-2016.pdf">“FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches”</a> is accepted to Workshop on Data Management on New Hardware (DaMoN’2016).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Paper Accepted to CIDR'15]]></title>
