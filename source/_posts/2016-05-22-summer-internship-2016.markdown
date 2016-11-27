@@ -6,4 +6,4 @@ comments: true
 categories: internship
 ---
 
-I will spend summer 2016 as an intern at Google Kirkland where working I will be working on Spanner SQL.
+I will spend summer 2016 as an intern at Google Kirkland where working I will be working on full-text searach optimization in Spanner SQL team (Spandex).
