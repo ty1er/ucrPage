@@ -4,7 +4,7 @@
   <title><![CDATA[Category: paper | Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/paper/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2016-11-26T16:54:18-08:00</updated>
+  <updated>2017-10-24T22:27:14-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Paper Accepted to SIGMOD'18]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2017/09/26/paper-accepted-to-sigmod-18/"/>
+    <updated>2017-09-26T11:48:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2017/09/26/paper-accepted-to-sigmod-18</id>
+    <content type="html"><![CDATA[<p>Paper “Lightweight Cardinality Estimation in LSM-based Systems” is accepted to ACM International Conference on Management of Data (SIGMOD’2018).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Paper Accepted to DaMoN'16]]></title>

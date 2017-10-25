@@ -4,7 +4,7 @@
   <title><![CDATA[Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2016-11-26T16:54:18-08:00</updated>
+  <updated>2017-10-24T22:27:14-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -14,11 +14,38 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Paper Accepted to SIGMOD'18]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2017/09/26/paper-accepted-to-sigmod-18/"/>
+    <updated>2017-09-26T11:48:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2017/09/26/paper-accepted-to-sigmod-18</id>
+    <content type="html"><![CDATA[<p>Paper “Lightweight Cardinality Estimation in LSM-based Systems” is accepted to ACM International Conference on Management of Data (SIGMOD’2018).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ph.D thesis proposal]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2017/06/26/ph-dot-d-thesis-proposal/"/>
+    <updated>2017-06-26T12:31:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2017/06/26/ph-dot-d-thesis-proposal</id>
+    <content type="html"><![CDATA[<p>My I have successfully submitted my Ph.D thesis proposal! Thanks to my committee members <a href="http://www.cs.ucr.edu/~tsotras/">Prof. Tsotras</a>, <a href="http://www.cs.ucr.edu/~vagelis/">Prof. Hristidis</a>, <a href="http://www.cs.ucr.edu/~najjar/">Prof. Najjar</a>, <a href="http://www.cs.ucr.edu/~eamonn/">Prof. Keogh</a> and <a href="https://www.ics.uci.edu/~mjcarey/">Prof. Carey</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Fall Internship 2016]]></title>
     <link href="http://www.cs.ucr.edu/~iabsa001/blog/2016/09/26/fall-internship-2016/"/>
     <updated>2016-09-26T15:41:00-07:00</updated>
     <id>http://www.cs.ucr.edu/~iabsa001/blog/2016/09/26/fall-internship-2016</id>
     <content type="html"><![CDATA[<p>I will spend fall 2016 as an intern at Amazon AWS working on database statistics for <a href="https://aws.amazon.com/redshift/">Amazon Redshift</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Microsoft Research Invited Talk]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2016/08/23/microsoft-research-invited-talk/"/>
+    <updated>2016-08-23T12:02:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2016/08/23/microsoft-research-invited-talk</id>
+    <content type="html"><![CDATA[<p>Our work on accelerating database operation with FPGAs was <a href="http://www.cs.ucr.edu/~iabsa001/presentations/msrTalk.pptx">“presented”</a> at Microsoft Research.</p>
 ]]></content>
   </entry>
   
