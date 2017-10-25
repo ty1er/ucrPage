@@ -20,10 +20,10 @@ Here's the list of features, which make it well-suited to applications including
 * a built-in notion of data feeds for ingestion of data
 * and transaction support akin to that of a NoSQL store
 
-The problem on collecting, maintaining and leveraging on database statistics is crucial for analytical databases.
+The problem of collecting, maintaining and leveraging of database statistics is crucial for analytical databases.
 Reliable statistics open up a possibility to significantly increase BDMS performance by producing better execution plans, tightly optimized for a given query and data distribution.
 However keeping accurate statistics comes at a high price for a database system, because it usually involves manual invocations of a special analyze function and incurs additional IO overhead.
-Keeping statistics in sync with the current snapshot on data in the system is another challenge, which many systems solve by providing tradeoff between statistic's accuracy and freshness.
+Keeping statistics in sync with the current snapshot of data in the system is another challenge, which many systems solve by providing tradeoff between statistic's accuracy and freshness.
 AsterixDB uses unique properties of the underlying LSM-based storage model to compute statistics on the fly, while the data is ingested into the system, eliminating additional overhead of analyze-based systems and, at the same time, keeping all information in sync without trading consistency for accuracy.
 
 ## Accelerating database systems on modern parallel hardware architectures ##
