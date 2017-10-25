@@ -4,7 +4,7 @@
   <title><![CDATA[Category: exam | Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/exam/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2017-10-24T22:27:14-07:00</updated>
+  <updated>2017-10-24T22:29:42-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ph.D thesis proposal]]></title>
+    <link href="http://www.cs.ucr.edu/~iabsa001/blog/2017/06/26/ph-dot-d-thesis-proposal/"/>
+    <updated>2017-06-26T12:31:00-07:00</updated>
+    <id>http://www.cs.ucr.edu/~iabsa001/blog/2017/06/26/ph-dot-d-thesis-proposal</id>
+    <content type="html"><![CDATA[<p>My I have successfully submitted my Ph.D thesis proposal! Thanks to my committee members <a href="http://www.cs.ucr.edu/~tsotras/">Prof. Tsotras</a>, <a href="http://www.cs.ucr.edu/~vagelis/">Prof. Hristidis</a>, <a href="http://www.cs.ucr.edu/~najjar/">Prof. Najjar</a>, <a href="http://www.cs.ucr.edu/~eamonn/">Prof. Keogh</a> and <a href="https://www.ics.uci.edu/~mjcarey/">Prof. Carey</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ph.D advancement exam]]></title>

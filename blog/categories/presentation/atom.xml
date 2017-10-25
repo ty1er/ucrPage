@@ -4,7 +4,7 @@
   <title><![CDATA[Category: presentation | Ildar Absalyamov]]></title>
   <link href="http://www.cs.ucr.edu/~iabsa001/blog/categories/presentation/atom.xml" rel="self"/>
   <link href="http://www.cs.ucr.edu/~iabsa001/"/>
-  <updated>2017-10-24T22:27:14-07:00</updated>
+  <updated>2017-10-24T22:29:42-07:00</updated>
   <id>http://www.cs.ucr.edu/~iabsa001/</id>
   <author>
     <name><![CDATA[Ildar Absalyamov]]></name>
@@ -18,7 +18,7 @@
     <link href="http://www.cs.ucr.edu/~iabsa001/blog/2016/08/23/microsoft-research-invited-talk/"/>
     <updated>2016-08-23T12:02:00-07:00</updated>
     <id>http://www.cs.ucr.edu/~iabsa001/blog/2016/08/23/microsoft-research-invited-talk</id>
-    <content type="html"><![CDATA[<p>Our work on accelerating database operation with FPGAs was <a href="/presentations/msrTalk.pptx">“presented”</a> at Microsoft Research.</p>
+    <content type="html"><![CDATA[<p>Our work on accelerating database operation with FPGAs was <a href="/presentations/msrTalk.pptx">presented</a> at Microsoft Research.</p>
 ]]></content>
   </entry>
   
