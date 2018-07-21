@@ -8,6 +8,10 @@ footer: true
 
 My [Google scholar profile](http://scholar.google.com/citations?user=5xoLP9wAAAAJ)
 
+* Lightweight Cardinality Estimation in LSM-based Systems (*
+Proceedings of the 2018 ACM International Conference on Management of Data (SIGMOD)*,Houston, Texas, USA, June 10-15, 2018).
+	**Ildar Absalyamov**, Michael J. Carey and Vassilis J. Tsotras <a href="sigmod2018.pdf" onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},200);return false;">pdf</a>
+
 * FPGA-Accelerated Group-by Aggregation Using Synchronizing Caches (*Proceedings 12th International Workshop on
 Data Management on New Hardware (DaMoN)*,San Francisco, California, USA, June 27, 2016).
 	**Ildar Absalyamov**, Prerna Budhkar, Skyler Windh, Robert J. Halstead, Walid A. Najjar and Vassilis J. Tsotras <a href="damon-2016.pdf" onclick="var that=this;_gaq.push(['_trackEvent','Download','PDF',this.href]);setTimeout(function(){location.href=that.href;},200);return false;">pdf</a>

@@ -6,4 +6,4 @@ comments: true
 categories: paper
 ---
 
-Paper "Lightweight Cardinality Estimation in LSM-based Systems" is accepted to ACM International Conference on Management of Data (SIGMOD'2018).
+Paper ["Lightweight Cardinality Estimation in LSM-based Systems"](/publications/sigmod2018.pdf) is accepted to ACM International Conference on Management of Data (SIGMOD'2018).
